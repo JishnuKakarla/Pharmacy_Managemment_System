@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Smart Health Village</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <style>
             /* Style the navigation bar */
                 .navbar {
@@ -42,18 +43,58 @@
 
 	<!-- Create the navigation bar -->
 	<div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="medicine.html">Medicines</a>
-        <a href="vaccine.html">Vaccines</a>
-        <a href="medicinedatavis.html">Data Visualization</a>
+        <a href="/">Home</a>
+        <a href="/medicines">Medicines</a>
+        <a href="/vaccines">Vaccines</a>
+        <a href="/medicinedatavis">Data Visualization</a>
       </div>
 
     
-        <div class="wrapper">
+        <!-- <div class="wrapper">
             <div class="card">
-                <img src="../Images/medicine_Stock.jpg" alt="Medicines Stock"/>
-                <img src="../Images/vaccine_Stock.jpg" alt="Vaccines Stock"/>
+                <img src="/static/medicine_Stock.jpg" alt="Medicines Stock"/>
+                <img src="/static/vaccine_Stock.jpg" alt="Vaccines Stock"/>
+            </div>
+        </div> -->
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/medicine_Stock.jpg" alt="Medicines Stock">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="/static/vaccine_Stock.jpg" alt="Vaccines Stock">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card"  style="width: 18rem;">
+              <img class="card-img-top" src="/static/medicine_Stock.jpg" alt="Medicines Stock">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card"  style="width: 18rem;">
+              <img class="card-img-top" src="/static/vaccine_Stock.jpg" alt="Vaccines Stock">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card"  style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
     </body>
 </html>

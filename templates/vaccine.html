@@ -6,7 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaccine Form</title>
     <style>
-        *{
+        /* Style the navigation bar */
+		.navbar {
+			background-color: #333;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+		}
+
+		/* Style the links in the navigation bar */
+		.navbar a {
+			float: left;
+			color: white;
+			font-size: 20px;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change the background color of the active link */
+		.navbar a.active {
+			background-color: #04AA6D;
+		}
+        /* *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -19,7 +40,7 @@
             align-items: center;
             padding: 5px;
             background: linear-gradient(135deg, #ef8e71, #e58258, #9ba978);
-        }
+        } */
         .container{
             max-width: 700px;
             width: 100%;
@@ -118,6 +139,13 @@
     </style>
 </head>
 <body>
+    <!-- Create the navigation bar -->
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/medicines">Medicines</a>
+        <a href="/vaccines">Vaccines</a>
+        <a href="/">Data Visualization</a>
+    </div>
     <div class="container">
         <div class="title">Vaccines</div>
         <form action="/addvaccine" method="post">
