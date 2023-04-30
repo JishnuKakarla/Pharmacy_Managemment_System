@@ -1,0 +1,150 @@
+Medicine_name,Type_of_medicine,Manufacture_Date,Expiry_Date,Purpose,Stock_Availability_Opening Stock_Quantity,Stock_Availability_Opening Stock_Unit Price,Stock_Availability_Stock_IN_Date,Stock_Availability_Stock_IN_Quantity,Stock_Availability_Stock_IN_Total Price,Stock_Availability_Stock_OUT_Date,Stock_Availability_Stock_OUT_Quantity,Stock_Availability_Stock_OUT_Total Price,Stock_Availability_Balance Stock_Quantity,Stock_Availability_Balance_Stock_Total Price,Quantity,Stock
+Lingnocaine ,HCL injection ,8/8/2020,8/8/2023,To cause numbness(or) loss of feeling for patient having certain medical procedure,100,100,6/20/2020,900,9000,8/8/2023,100,1000,900,9000,900,69
+Lingnocaine ,Ointment,8/9/2020,7/31/2023,Prevents & treats pain caused by some procedures,500,200,9/12/2025,901,5000,7/31/2027,500,5000,0,0,0,88
+Prilocaine Lignocaine,Injection,8/10/2020,7/15/2024,Anaesthetic,150,50,8/26/2025,902,8500,7/15/2028,150,1500,850,8500,850,22
+Alprazolam,Tablet,8/11/2020,7/29/2030,To treat anxiety & panic disorders,450,50,8/9/2020,903,6599,7/29/2030,950,9500,50,500,50,86
+Alprazolam,Tablet,6/20/2020,6/20/2027,To treat anxiety & panic disorders,200,200,9/12/2022,904,8000,6/20/2027,200,2000,800,8000,800,22
+Amitriptyline,Tablet,2/4/2018,2/4/2022,To treat nerve pain&back pain to help prevent migraine attacks,400,100,2/4/2018,905,6000,2/4/2022,900,9000,100,1000,905,92
+Midazolim,Injection,9/12/2022,9/12/2025,To produce sleepiness or drowsiness &relieve anxiety before surgery or certain procedures,250,150,2/10/2023,906,7500,9/12/2025,250,2500,750,7500,906,65
+Midazolim,nasal Spray,7/7/2027,7/7/2029,For emergency situation to stop cluster seizures,350,150,8/8/2020,907,6500,7/7/2029,850,8500,150,1500,907,34
+Propantheline,Tablet,8/24/2021,8/24/2023,To treat ulcers,300,150,8/11/2020,908,7000,8/24/2023,300,3000,700,7000,908,21
+Paracetamol,suppository,2/10/2023,2/10/2026,To treat pain and high temperature(fever) in children from 1 to 5 years age,500,150,9/12/2025,909,5000,2/10/2026,800,8000,200,2000,909,37
+Paracetamol,Injection,8/26/2025,8/26/2028,Short trem treatment of fever ,450,150,6/20/2020,910,5500,7/15/2028,350,3500,650,6500,910,43
+Paracetamol,Tablet,9/12/2022,9/12/2025,"Treat headaches,migraine,nerve pain,sore throat,muscle ache and common cold",400,150,8/8/2020,911,6000,8/8/2023,750,7500,250,2500,911,54
+Paracetamol,Tablet,8/24/2021,8/24/2023,Treatment of pain and fever ,350,150,8/9/2020,912,6500,7/15/2028,400,4000,600,6000,912,12
+Paracetamol,Drops,7/7/2027,7/7/2029,Pain relif ,300,150,8/10/2020,913,7000,7/29/2030,700,7000,300,3000,913,87
+Diclofenac Sodium,Spray,6/20/2020,6/20/2027,To relive pain and swelling due to trauma in small and medium joints and surrounding tissues,250,150,8/11/2020,914,7500,9/12/2025,450,4500,550,5500,914,45
+Diclofenac Sodium+Sprratiopeptidase,Tablet,7/31/2020,7/31/2023,To treat pain and inflammation,200,,8/9/2020,915,8000,7/31/2027,650,6500,350,3500,915,43
+Diclofenac Potassium,Tablet,2/10/2023,2/10/2026,Used to relieve mild to modrate pain swelling and joint stiffiness from arthritis,150,150,2/10/2023,916,8500,7/7/2029,500,5000,500,5000,916,14
+Diclofenac Potassium,Tablet,2/4/2018,2/4/2022,Used to relieve mild to modrate pain swelling and joint stiffiness from arthritis,100,151,2/4/2018,917,9000,9/12/2025,600,6000,400,4000,917,13
+Diclofenac Potassium,Gel,6/20/2020,6/20/2027,Used to reduce the swelling,100,152,9/12/2025,918,9000,2/10/2026,550,5500,450,4500,918,75
+Piroxicam,Injection,7/29/2020,7/29/2030,Relive pain tenderness,150,153,8/8/2020,919,8500,2/4/2022,1000,1000,0,1500,919,97
+Piroxicam,Gel,6/25/2027,6/25/2030,Reduce inflammation and relieve pain,200,154,7/7/2029,920,8000,8/8/2023,950,9500,50,500,920,65
+Piroxicam,Tablet,8/26/2025,8/26/2028,To treat pain and help relieve symptoms of arthritits,250,155,9/12/2022,921,7500,7/15/2028,900,9000,100,1000,921,23
+Mefenamic acid,Syrup,2/4/2018,2/4/2022,To relieve mild to modrate pain including menstrual pain,300,156,8/26/2025,922,7000,8/24/2023,850,8500,150,1500,922,86
+Mefenamic acid,DT,7/7/2027,7/7/2029,Treat mild to modrate pain,350,157,2/4/2018,923,6500,9/12/2025,800,8000,200,2000,923,55
+Mefenamic acid,Spray,9/12/2022,9/12/2025,Treat mild to modrate pain,400,158,7/7/2029,924,6000,7/31/2027,750,7500,250,2500,924,78
+Mefenamic acid,Capsules,2/10/2023,2/10/2026,Short term treatment of mild to modrate pain,450,159,8/10/2020,925,5500,7/15/2028,700,7000,300,3000,925,65
+Aceclofenac,Gel,6/20/2020,6/20/2027,Pian killer,500,160,7/7/2027,926,5000,7/29/2030,650,6500,350,3500,926,56
+Scrratiopeptidase,Tablet,8/24/2021,8/24/2023,"Anti inflammatory purpose after impaction,mixillofacial trauma and infections",100,161,8/9/2020,927,9000,2/10/2026,600,6000,400,4000,927,77
+Lornoxicam,Tablet,9/12/2022,9/12/2025,Used as a pain killer,400,162,2/4/2018,928,6000,7/7/2029,550,5500,450,4500,928,89
+Lornoxicam,Tablet,8/8/2020,8/8/2023,Used as a pain killer,100,163,8/8/2020,929,7000,7/29/2030,500,5000,500,5000,929,52
+Etoricoxib,Tablet,7/15/2020,7/15/2024,reduce the pain and swelling,150,164,9/12/2025,930,8500,7/15/2028,450,4500,550,5500,930,50
+Etoricoxib,Tablet,2/4/2018,2/4/2022,reduce the pain and swelling,450,165,8/26/2025,931,5500,8/24/2023,400,4000,600,6000,931,23
+Etoricoxib,Tablet,8/26/2025,8/26/2028,reduce the pain and swelling,150,166,2/10/2023,932,8500,8/8/2023,350,3500,650,6500,932,66
+Tramadol,Tablet,2/16/2023,2/16/2026,"To relieve modrate to modrately severe pain,including pain after surgery",200,167,7/7/2029,933,8000,7/31/2027,300,3000,700,7000,933,44
+Tramadol,Injection,7/29/2020,7/29/2030,"To relieve modrate to modrately severe pain,including pain after surgery",500,168,2/4/2018,934,5000,7/7/2029,250,2500,750,7500,934,34
+Pntazocine,Injection,2/10/2023,2/10/2026, Used to relieve modrate to sevire pain,350,169,8/11/2020,935,6500,9/12/2025,200,2000,800,8000,935,65
+Moraphine,Injection,7/7/2027,7/7/2029, Used to relieve modrate to sevire pain,250,170,7/7/2029,936,7500,6/20/2027,150,1500,850,1200,936,45
+Fentanyl,Injection,8/24/2021,8/24/2023,To relieve severe pian during and after surgery,200,171,8/8/2020,937,8000,8/8/2023,100,1000,900,7000,937,90
+Febuxostat,,9/12/2022,9/12/2025,Used to lower hypher uricemia(high uric acid in the blood),400,172,9/12/2022,938,6000,7/31/2027,500,5000,500,5000,938,97
+Allopurinol,Tablet,6/20/2020,6/20/2027,To prevent or lower high uric acid levels in the blood,300,173,8/9/2020,939,7000,9/12/2025,1000,10000,0,4000,939,96
+Allopurinol,Tablet,8/26/2025,8/26/2028,To prevent or lower high uric acid levels in the blood,100,174,2/4/2018,940,9000,7/7/2029,550,5500,450,4500,940,26
+Colchicine,Tablet,6/25/2027,6/25/2030,To prevent or treat attacks of gout,450,175,8/11/2020,941,5500,2/4/2022,950,9500,50,500,941,48
+Methotrexite,Tablet,7/31/2020,7/31/2023,Treats cancer by slowing the growth of cancer cells,350,176,9/12/2025,942,6500,7/15/2028,600,6000,400,1000,942,95
+Methotrexite,Tablet,8/26/2025,8/26/2028,Treats cancer by slowing the growth of cancer cells,500,177,8/26/2025,943,5000,8/8/2023,900,9000,100,1000,943,64
+Methotrexite,Tablet,6/25/2027,6/25/2030,Treats cancer by slowing the growth of cancer cells,100,178,8/8/2020,944,9000,2/4/2022,650,6500,450,4500,944,44
+Azathioprine,Tablet,7/7/2027,7/7/2029,To prevent transplant rejection,300,179,2/4/2018,945,7000,7/29/2030,850,8500,150,1500,945,8
+Azathioprine,Tablet,9/12/2022,9/12/2025,To treat maleria,450,180,2/10/2023,946,5500,8/24/2023,700,7000,300,3000,946,34
+Hydroxy Chroloquine,Tablet,6/20/2020,6/20/2027,To treat ulcerative colitis and crohns disease,500,181,8/26/2025,947,5000,8/8/2023,800,8000,200,2000,947,65
+Sulfasalazine,Tablet,8/24/2021,8/24/2023,To treat joint diseases such as osteoarthrits,400,182,7/7/2029,948,6000,7/15/2028,750,7500,250,2500,948,77
+Diacerein,Capsules,2/10/2023,2/10/2026,To treat the symptoms of cardiac arrest,200,183,6/20/2020,949,8000,7/31/2027,450,4500,550,5500,949,66
+Adrenaline,,7/29/2020,7/29/2030,To treat allergic rhinitis and pruritus,350,184,2/10/2023,950,6500,7/7/2029,350,3500,850,8500,950,11
+Pheniramine Maleate,,6/25/2027,6/25/2030,Treatment of allergic conditions,100,185,8/11/2020,951,9000,6/20/2027,250,2500,750,7500,951,22
+Sodiumchromoglycate,Eye drops,8/26/2025,8/26/2028,Treatment for both seasonal and perennial allergic rhinitis,450,186,8/8/2020,952,5500,9/12/2025,150,1500,850,8500,952,46
+Ebastine,Tablet,2/10/2023,2/10/2026,Treatment for both seasonal and perennial allergic rhinitis,500,187,9/12/2022,953,5000,7/29/2030,400,4000,600,6000,953,47
+Ebastine,Tablet,7/7/2027,7/7/2029,Treatment for both seasonal and perennial allergic rhinitis,300,188,8/9/2020,954,7000,7/31/2027,300,3000,700,7000,954,79
+Desloratadine,Tablet,2/4/2018,2/4/2022,Temporaly relive the symptoms of hay fever,100,189,2/10/2023,955,9000,8/8/2023,200,2000,800,1000,955,64
+Rupatadine,Tablet,8/26/2025,8/26/2028,To relive the symptomps of hay fever and the hives of the skin,250,190,8/26/2025,956,7500,2/10/2026,100,1000,900,2000,956,87
+Olopatadine,Tablet,8/24/2021,8/24/2023,Relives the symptoms of allergic rhinits ,300,191,2/4/2018,957,7000,7/7/2029,100,1000,900,3000,957,64
+Azelastine,nasal Spray,9/12/2022,9/12/2025,To relive the itchy eyes caused by allergic reactions,150,192,8/8/2020,958,8500,8/24/2023,200,2000,800,4000,958,73
+Diazepam,Tablet,8/8/2020,8/8/2023,Used to relive the sneezing or running nose,400,193,2/10/2023,959,6000,2/4/2022,300,3000,700,3000,959,84
+Diazepam,Tablet,7/31/2020,7/31/2023,"Treat anxiety,muscle,spasms and seizures or fits",200,194,8/26/2025,960,8000,7/15/2028,400,4000,600,2000,960,45
+Phenobarbitone,Syrup,2/10/2023,2/10/2026,"Treat anxiety,muscle,spasms and seizures or fits",500,195,8/9/2020,961,5000,7/29/2030,500,5000,500,1000,961,65
+Phenytoin,Tablet,7/7/2027,8/24/2023,Control seizures,150,196,7/7/2029,962,8500,2/4/2022,600,6000,400,3000,962,60
+Phenytoin,Injection,2/4/2018,2/4/2022,Control certain types of seizures,250,197,8/8/2020,963,7500,8/8/2023,700,7000,300,1000,963,76
+Sodium Valproate,Injection,7/29/2020,7/29/2030,To treat or prevent seizures,300,198,8/9/2020,964,7000,7/31/2027,800,8000,200,500,964,43
+Levetiracetim,Tablet,6/25/2027,6/25/2030,To treat epilepsy and bipolar disorder,500,199,2/4/2018,965,5000,6/25/2030,900,9000,100,1000,965,78
+Levetiracetim,Injection,8/26/2025,8/26/2028,Control seizures,100,200,9/12/2025,966,9000,9/12/2025,1000,10000,0,4000,966,77
+Gabapentin,Tablet,2/10/2023,2/10/2026,Control seizures,500,201,7/7/2029,967,5000,7/15/2028,150,1500,850,8500,967,21
+Gabapentin,Tablet,6/20/2020,6/20/2027,Decrease ubnormal extiment in the brain,150,202,8/9/2020,968,8500,2/4/2022,250,2500,750,7500,968,20
+Lorazepam,,7/15/2020,7/15/2024,Relive anxity,450,203,8/26/2025,969,5500,8/8/2023,350,3500,650,6500,969,45
+Clobazam,Tablet,7/31/2020,7/31/2023,Control seizures,200,204,8/8/2020,970,8000,7/29/2030,450,4500,550,5500,970,67
+Mebendazole,Tablet,8/26/2025,8/26/2028,Treat infections caused by warms,400,205,2/10/2023,971,6000,7/7/2029,550,5500,450,4500,971,87
+Mebendazole,Tablet,9/12/2022,9/12/2025,Treat infections caused by warms,250,206,9/12/2025,972,7500,8/24/2023,650,6500,350,3400,972,34
+Piperazine Citrate,Syrup,2/16/2023,2/16/2026,Common round warms and pin warms,350,207,8/26/2025,973,6500,7/15/2028,750,7500,250,2000,973,32
+DEC ,Tablet,2/10/2023,2/10/2026,Treat paracites and warm infections,300,208,2/4/2018,974,7000,6/25/2030,850,8500,150,2000,974,97
+Ivermectin,Tablet,2/16/2023,2/16/2026,Various paracitic infection,200,209,8/11/2020,975,8000,8/8/2023,950,9500,50,2000,975,87
+Ampicillin,Capsules,7/7/2027,7/7/2029,Treat certain infection caused by bacteria,500,210,7/7/2029,976,5000,9/12/2025,100,1000,900,2000,976,67
+Amoxycillin,DT,8/24/2021,8/24/2023,Treat bacterial infection,400,211,2/10/2023,977,6000,7/31/2027,150,1500,850,1000,977,65
+Amoxycillin+Clavulanic Acid,Dry Syrup,7/29/2020,7/29/2030,Treat bacterial infection,100,212,9/12/2025,978,9000,2/10/2026,200,2000,800,5000,978,13
+Amoxycillin+Clavulanic Acid,Tablet,8/8/2020,8/8/2023,Treat bacterial infection,150,213,8/9/2020,979,8500,2/4/2022,250,2500,750,2000,979,35
+Amoxycillin+Clavulanic Acid,Injection,6/25/2027,6/25/2030,Treat bacterial infection,250,214,6/20/2020,980,7500,7/29/2030,300,3000,700,2000,980,47
+Amoxycillin+Clavulanic Acid,Injection,8/26/2025,8/26/2028,Treat bacterial infection,350,215,8/8/2020,981,6500,6/25/2030,350,3500,650,1000,981,76
+Crystalline Penicillin,Injection,6/20/2020,6/20/2027,Treat wide varity of bacteria,450,216,2/10/2023,982,5500,8/8/2023,400,4000,600,4000,982,87
+Penicillin V ,Tablet,9/12/2022,9/12/2025,Treat infections caused by bacteria,100,217,8/9/2020,983,9000,8/24/2023,450,4500,550,4500,983,8
+Penicillin V ,Tablet,2/4/2018,2/4/2022,Treat infections caused by bacteria,300,218,2/4/2018,984,7000,9/12/2025,500,5000,500,5500,984,78
+Ampicillin+Cloxacillin,Tablet,7/15/2020,7/15/2024,Treat certain infection caused by bacteria,150,219,7/7/2029,985,8500,8/8/2023,550,5500,450,5000,985,24
+Cefuroxime,Syrup,7/31/2020,7/31/2023,Treat baterial infections in many different parts of the body,500,220,2/10/2023,986,5000,7/7/2029,600,6000,400,4000,986,13
+Cefuroxime,Tablet,8/26/2025,8/26/2028,Treat certain infection caused by bacteria,250,221,8/9/2020,987,7500,6/20/2027,650,6500,350,3500,987,53
+Cefuroxime,Injection,2/10/2023,2/10/2026,Treat certain infection caused by bacteria,400,222,9/12/2025,988,6000,7/15/2028,700,7000,300,3000,988,45
+Cefuroxime,Injection,7/7/2027,7/7/2029,Treat certain infection caused by bacteria,350,223,8/26/2025,989,6500,9/12/2025,750,7500,250,2500,989,45
+Cefixime,Syrup,6/25/2027,6/25/2030,Treat certain infection caused by bacteria,200,224,8/9/2020,990,8000,7/7/2029,800,8000,200,2000,990,56
+Cefixime,Tablet,2/10/2023,2/10/2026,Treat certain infection caused by bacteria,100,225,6/20/2020,991,9000,2/4/2022,850,8500,150,1500,991,75
+Cefixime,Tablet,6/20/2020,6/20/2027,Treat certain infection caused by bacteria,150,226,8/8/2020,992,8500,6/25/2030,900,9000,100,1000,992,72
+Cefadroxyl,Syrup,8/26/2025,8/26/2028,Treat certain infection caused by bacteria,200,227,7/7/2029,993,8000,7/15/2028,950,9500,50,500,993,31
+Cefadroxyl,Tablet,6/25/2027,6/25/2030,Treat certain infection caused by bacteria,250,228,2/4/2018,994,7500,8/8/2023,1000,10000,0,0,994,39
+Cephalexin,Syrup,9/12/2022,9/12/2025,Treat certain infection caused by bacteria,300,229,9/12/2025,995,7000,6/25/2030,1000,10000,0,0,995,87
+Cephalexin,Syrup,2/4/2018,2/4/2022,Treat certain infection caused by bacteria,350,230,8/8/2020,996,6500,7/31/2027,950,9500,50,500,996,65
+Cephalexin,Tablet,7/29/2020,7/29/2030,Treat certain infection caused by bacteria,400,231,8/9/2020,997,6000,9/12/2025,900,9000,100,1000,997,43
+Cephalexin,Tablet,8/24/2021,8/24/2023,Treat certain infection caused by bacteria,450,232,9/12/2025,998,5500,2/4/2022,850,8500,150,1500,998,62
+Ceftriaxone,Injection,8/8/2020,8/8/2023,Treat certain infection caused by bacteria,500,233,7/7/2029,999,5000,6/25/2030,800,8000,200,2000,999,75
+Ceftriaxone,Injection,7/31/2020,7/31/2023,Treat certain infection caused by bacteria,500,234,2/10/2023,1000,5000,7/29/2030,750,7500,250,2500,1000,24
+Ceftriaxone,Injection,2/16/2023,2/16/2026,Treat certain infection caused by bacteria,450,235,2/4/2018,1001,5500,8/8/2023,700,7000,300,3000,1001,7
+Cefepine,Injection,8/26/2025,8/26/2028,Treat certain infection caused by bacteria,400,236,6/20/2020,1002,6000,2/10/2026,650,6500,350,3500,1002,45
+Ceftazidime,Injection,7/15/2020,7/15/2024,Treat certain infection caused by bacteria,350,237,8/11/2020,1003,6500,7/15/2028,600,6000,400,4000,1003,85
+Ceftazidime,Injection,6/25/2027,6/25/2030,Treat certain infection caused by bacteria,300,238,6/20/2020,1004,6000,8/8/2023,550,5500,450,4500,1004,63
+Ceftazidime,Injection,7/7/2027,7/7/2029,Treat certain infection caused by bacteria,250,239,8/8/2020,1005,7500,2/4/2022,500,5000,500,5000,1005,54
+Cefotaxime,Injection,8/26/2025,8/26/2028,Treat certain infection caused by bacteria,200,240,8/26/2025,1006,8000,6/25/2030,450,4500,550,5500,1006,75
+Cefotaxime,Injection,2/10/2023,2/10/2026,Treat certain infection caused by bacteria,150,241,7/7/2029,1007,8500,8/24/2023,400,4000,600,6000,1007,32
+Cefotaxime,Injection,6/20/2020,6/20/2027,Treat certain infection caused by bacteria,100,242,9/12/2025,1008,9000,7/15/2028,350,3500,650,6500,1008,64
+Meropenem,Injection,2/16/2023,2/16/2026,Treat certain infection caused by bacteria,500,243,2/4/2018,1009,5000,6/20/2027,300,3000,700,7000,1009,78
+Meropenem,Injection,9/12/2022,9/12/2025,Treat certain infection caused by bacteria,100,244,8/9/2020,1010,9000,6/25/2030,250,2500,750,7500,1010,44
+Cefditoren,Injection,7/31/2020,7/31/2023,Treat certain infection caused by bacteria,450,245,2/10/2023,1011,5500,9/12/2025,200,2000,800,8000,1011,87
+Cefazolin,Injection,2/10/2023,2/10/2026,Treat certain infection caused by bacteria,150,246,6/20/2020,1012,8500,7/31/2027,150,1500,850,8500,1012,58
+Cefoprazone,Injection,8/24/2021,8/24/2023,Treat certain infection caused by bacteria,400,247,7/7/2029,1013,6000,2/4/2022,100,1000,900,9000,1013,78
+Cefoprazone,Injection,2/4/2018,2/4/2022,Treat certain infection caused by bacteria,200,248,8/26/2025,1014,8000,7/7/2029,100,1000,950,9500,1014,57
+Cefpodoxime proxetil ,Tablet,7/7/2027,7/7/2029,Treat certain infection caused by bacteria,350,249,8/8/2020,1015,7500,9/12/2025,300,3000,700,7000,1015,67
+Cefpodoxime+calvulanic acid,Tablet,9/12/2022,9/12/2025,Treat certain infection caused by bacteria,250,250,8/9/2020,1016,7500,7/31/2027,500,5000,500,5000,1016,95
+Ceftriaxone+sulbactam,,7/29/2020,7/29/2030,Antiboitic,300,251,2/4/2018,1017,7000,6/20/2027,700,7000,300,3000,1017,43
+Piperacillin,,7/15/2020,7/15/2024,Antiboitic,100,252,7/7/2029,1018,9000,6/25/2030,900,9000,100,1000,1018,66
+Piperacillin,Injection,8/8/2020,8/8/2023,Antiboitic,200,253,2/10/2023,1019,8000,2/10/2026,200,2000,800,8000,1019,77
+Piperacillin,Injection,8/26/2025,8/26/2028,Antiboitic,300,254,9/12/2025,1020,7000,7/7/2029,400,4000,600,6000,1020,43
+Doxycycline,Capsules,6/20/2020,6/20/2027,Treats certain infections ,400,255,8/26/2025,1021,6000,7/29/2030,600,6000,400,4000,1021,46
+Gentamicin,Injection,6/25/2027,6/25/2030,Treats certain infections ,500,256,8/9/2020,1022,5000,7/15/2028,800,8000,200,2000,1022,65
+Gentamicin,Injection,2/10/2023,2/10/2026,Treats certain infections ,150,257,8/8/2020,1023,8500,8/8/2023,1000,10000,0,0,1023,75
+Amikacl,Injection,7/7/2027,7/7/2029,Treats certain infections ,250,258,6/20/2020,1024,7500,2/4/2022,150,1500,850,8500,1024,86
+Amikacl,Injection,8/24/2021,8/24/2023,Treats certain infections ,350,259,9/12/2025,1025,6500,6/25/2030,350,3500,650,6500,1025,63
+Amikacl,Injection,2/4/2018,2/4/2022,Treats certain infections ,450,260,8/11/2020,1026,5500,6/20/2027,550,5500,450,4500,1026,82
+Amikacl,Injection,2/10/2023,2/10/2026,Antiboitic,100,261,8/9/2020,1027,9000,7/31/2027,750,7500,250,2500,1027,91
+Vamcomyca,Injection,8/26/2025,8/26/2028,Antiboitic,150,262,8/26/2025,1028,8500,8/24/2023,950,9500,50,500,1028,37
+Ciprofloxacin,Tablet,9/12/2022,9/12/2025,Infection caused by protozoa,500,263,2/4/2018,1029,5000,8/8/2023,50,500,950,9500,1029,32
+Tinidazole,Tablet,7/29/2020,7/29/2030,Treatment of protozola infection,450,264,6/20/2020,1030,6500,7/15/2028,250,2500,750,7500,1030,48
+Ornidazole,Tablet,8/26/2025,8/26/2028,Treat certain bacterial infection,200,265,2/10/2023,1031,8000,7/29/2030,450,4500,650,6500,1031,48
+Linzole,Injection,7/31/2020,7/31/2023,Treat certain bacterial infection,250,266,7/7/2029,1032,7500,2/4/2022,650,6500,450,4500,1032,45
+Linzole,Tablet,2/10/2023,2/10/2026,Antiboitics,400,267,8/26/2025,1033,6000,9/12/2025,850,8500,150,1500,1033,43
+Titeicoplenil,Injection,6/20/2020,6/20/2027,Treat certain bacterial infection,350,268,8/8/2020,1034,6500,7/29/2030,50,500,950,9500,1034,64
+Azithromycin,Syrup,8/24/2021,8/24/2023,Antibiotics,300,269,8/9/2020,1035,7000,7/7/2029,100,1000,900,9000,1035,61
+Clarithromicin,Tablet,7/7/2027,7/7/2029,Bacaterial infections,500,270,9/12/2025,1036,5000,2/10/2026,150,1500,850,8500,1036,33
+Clindamycin Vaginl,Tablet,7/15/2020,7/15/2024,Treat bacterial infection,450,271,2/4/2018,1037,6500,7/31/2027,200,2000,800,8000,1037,83
+Clindamycin ,Injection,7/29/2020,7/29/2030,Treat bacterial infection,400,272,6/20/2020,1038,6000,2/4/2022,250,2500,750,7500,1038,31
+Clindamycin ,Capsules,8/8/2020,8/8/2023,Treat bacterial infection,350,273,8/9/2020,1039,6500,7/15/2028,300,3000,700,7000,1039,24
+Chloramphenicoleye,Drops,6/25/2027,6/25/2030,Treat eye infections ,300,274,8/8/2020,1040,7000,8/24/2023,350,3500,650,6500,1040,57
+Nilidixic Acid,Tablet,6/20/2020,6/20/2027,Treat urinary tract infections,250,275,2/4/2018,1041,7500,8/8/2023,400,4000,600,6000,1041,43
+Nilidixic Acid,Syrup,8/26/2025,8/26/2028,Treat urinary tract infections,200,276,8/11/2020,1042,8000,7/31/2027,450,4500,550,5500,1042,32
+Nitrofuantoin,Tablet,2/4/2018,2/4/2022,Treat urinary tract infections,150,277,2/10/2023,1043,8500,2/10/2026,500,5000,500,5000,1043,56
+Bacitracin,Ointment,2/10/2023,2/10/2026,Help prevent minor skin injury,100,278,8/9/2020,1044,9000,6/20/2027,550,5500,450,4500,1044,7
+Roxithromycin,Tablet,9/12/2022,9/12/2025,Antibiotics,250,279,7/7/2029,1045,9500,7/7/2029,600,6000,400,4000,1045,66
+Ofloxacin,Tablet,8/24/2021,8/24/2023,Treats certain infections ,350,280,9/12/2025,1046,6500,9/12/2025,650,6500,350,3500,1046,33
+Leofloxacin,Tablet,7/7/2027,7/7/2029,Treat bacterial infection,450,281,2/10/2023,1047,5500,2/4/2022,700,7000,300,3000,1047,64
+Minocycline,Tablet,7/31/2020,7/31/2023,Treat bacterial infection in many different parts of the body,150,282,8/9/2020,1048,8500,8/8/2023,750,7500,250,2500,1048,52

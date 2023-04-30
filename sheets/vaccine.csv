@@ -1,0 +1,7 @@
+vaccine_name,disease_name,manufacture_date,expiry_date,purpose,quantity,stock
+covid,corona,2022-10-02,2023-11-21,corona,45,65
+polio,polio,2023-03-26,2023-05-05,polio,10,10
+Hepatitis B Vaccine,liver,2023-03-26,2023-05-05,liver,55,45
+Diphtheria,Diphtheria,2022-10-02,2023-11-21,throat pain,35,65
+Tetanus,Tetanus,2023-03-26,2023-05-05,Tetanus,67,43
+

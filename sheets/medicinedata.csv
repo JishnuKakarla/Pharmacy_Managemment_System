@@ -1,0 +1,4 @@
+medicine_name,Typeofmedicine,medicinemanufacturedate,medicineexpirydate,purpose,StockInDate,StockInQuantity,StockInQuantityPrice,stockOutDate,StockOutQuantity,BalanceStockQuantity,BalanceStockPrice
+drug3,tablet,2023-04-06,2023-04-26,fever,2023-04-19,53,1232,2023-04-19,122,123,1244
+drug4,tablet,2023-03-29,2023-04-10,fever,2023-03-27,59,2300,2023-05-03,1500,87,800
+drug4,tablet,2023-03-29,2023-04-10,fever,2023-03-27,59,2300,2023-05-03,1500,87,800

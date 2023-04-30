@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			background-image: url("../Images/bg_image.jpeg"); /* Set background image */
+			background-size: cover; /* Scale image to cover entire background */
+			background-position: center; /* Position image in center */
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+
+		/* Style the navigation bar */
+		.navbar {
+			background-color: #333;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+		}
+
+		/* Style the links in the navigation bar */
+		.navbar a {
+			float: left;
+			color: white;
+			font-size: 20px;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change the background color of the active link */
+		.navbar a.active {
+			background-color: #04AA6D;
+		}
+
+		/* Style the footer */
+		.footer {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Create the navigation bar -->
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="medicine.html">Medicines</a>
+		<a href="vaccine.html">Vaccines</a>
+        <a href="medicinedatavis.html">Data Visualization</a>
+	</div>
+
+
+	<!-- Add content inside a container -->
+	<div class="container">
+		<h1>Welcome to my website!</h1>
+		<p>This is some sample content.</p>
+        
+	</div>
+
+	<!-- Add the footer message -->
+	<div class="footer">
+		<p>&copy; 2023 My Website - All rights reserved</p>
+	</div>
+
+</body>
+</html>

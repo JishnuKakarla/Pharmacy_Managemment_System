@@ -1,0 +1,2 @@
+vaccine_name,disease_name,vaccinemanufacturedate,vaccineexpirydate,purpose,StockInDate,StockInQuantity,stockOutDate,StockOutQuantity,BalanceStockQuantity,BalanceStockPrice
+covid2 ,corona,2023-04-06,2023-04-19,fever,2023-04-04,32,45,2023-04-26,245,322,689

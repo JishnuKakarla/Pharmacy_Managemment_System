@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins' ,sans-serif;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background: linear-gradient(135deg, #ef8e71, #e58258, #9ba978);
+        }
+        .container{
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 5px;
+        
+        }
+        .container .title{
+            font-size: 25px;
+            font-weight: 500;
+            position: relative;
+            linear-gradient: (120deg, #5820da, #f5f8f6);
+        }
+        .container .title::before{
+            content: "";
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            height: 3px;
+            width: 30px;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        }
+        .container form .user-details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+        }
+        form .user-details .input-box{
+            margin-bottom: 5px;
+            width: calc(100% / 2 - 20px);
+        }
+        .user-details .input-box .details{
+            font-weight: 100;
+            margin-bottom: 5px;
+        }
+        .user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding-left: 15px;
+            border-bottom-width: 2px;
+            transition: all 0.3s ease;
+        }
+        .user-details .input-box input:focus,
+        .user-details .input-box input:valid{
+            border-color: #045a94;
+        
+        }
+        
+        form input[type="radio"]{
+            display: none;
+        }
+        form .button{
+            height: 45px;
+            margin: 45px 0;
+        }
+        form .button input{
+            height: 100%;
+            width: 100%;
+            outline: none;
+            color: #fff;
+            background: linear-gradient(-155deg, #ea7509, #cd4409, #81e88f);
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        form .button input:hover{
+            background: linear-gradient(155deg, #ee940d, #e34b0f, #82eaab);
+            box-shadow: 0 5px 10px rgba(0 0 0.1);
+        }
+        @media(max-width: 584px){
+            .container{
+                max-width: 100%;
+            }
+            form .user-details .input-box{
+                margin-bottom: 15px;
+                width: 100%;
+            }
+            form .gender-details .category{
+                width: 100%;
+            }
+            .container form .user-details{
+                max-height: 300px;
+                overflow-y: scroll;
+            }
+            .user-details::-webkit-scrollbar{
+                width: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Vaccines</div>
+        <form action="/addvaccine" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Vaccine Name</span>
+                    <input type="text" name="Vaccine_name" id="Vaccine_name" placeholder="Enter Vaccine Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Disease Name </span>
+                    <input type="text" name="diseasename" id="diseasename" placeholder="Enter Disease Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Vaccine Manufacture Date</span>
+                    <input type="date" name="vaccinemanufacturedate" id="vaccinemanufacturedate" placeholder="Vaccine Manufacture Date" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Vaccine Expiry Date</span>
+                    <input type="date" name="vaccineexpirydate" id="vaccineexpirydate" placeholder="vaccine Expiry Date" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Purpose</span>
+                    <input type="text" name="purpose" id="purpose" placeholder="Purpose" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Stock In Date</span>
+                  <input type="date" name="StockInDate" id="StockInDate" placeholder="Enter Stock In Date" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Stock In Quantity</span>
+                    <input type="number" name="StockInQuantity" id="StockInQuantity" placeholder="Enter Stock In Quantity" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Stock In Quantity Price</span>
+                  <input type="number" name="StockInQuantityPrice" id="StockInQuantityPrice" placeholder="Enter Stock In Quantity Price" required>
+                </div>
+
+                <div class="input-box">
+                  <span class="details">Stock Out Date</span>
+                  <input type="date" name="StockOutDate" id="StockOutDate" placeholder="Enter Stock Out Date" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Stock Out Quantity</span>
+                    <input type="number" name="StockOutQuantity" id="StockOutQuantity" placeholder="Enter Stock Out Quantity" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Balance Stock Quantity</span>
+                    <input type="number" name="BalanceStockQuantity" id="BalanceStockQuantity" placeholder="Enter Balance Stock Quantity" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Balance Stock Price</span>
+                    <input type="number" name="BalanceStockPrice" id="BalanceStockPrice" placeholder="Enter Balance Stock Price" required>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+
+
+<!-- 
+    <h1>Medicine Form</h1>
+    <form action="/addmedicine" method="post">
+
+      <label for="medicine_name">Medicine Name:</label>
+      <input type="text" name="medicine_name" id="medicine_name" required>
+      
+      <label for="medicine_type">Medicine Type:</label>
+      <input type="text" name="medicine_type" id="medicine_type" required>
+      
+      <label for="manufacture_date">Manufacture Date:</label>
+      <input type="date" name="manufacture_date" id="manufacture_date" required>
+      
+      <label for="expiry_date">Expiry Date:</label>
+      <input type="date" name="expiry_date" id="expiry_date" required>
+      
+      <label for="purpose">Purpose:</label>
+      <textarea name="purpose" id="purpose" required></textarea>
+      
+      <label for="quantity">Quantity:</label>
+      <input type="number" name="quantity" id="quantity" required>
+      
+      <label for="stock">Stock:</label>
+      <input type="number" name="stock" id="stock" required>
+      <br>
+      <input type="submit" value="Add Medicine">
+    </form> -->
