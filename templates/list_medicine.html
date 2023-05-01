@@ -6,27 +6,76 @@
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
-      /* Style the navigation bar */
-		.navbar {
-			background-color: #333;
-			overflow: hidden;
-			display: flex;
-			justify-content: center;
-		}
+      .navbar {
+        background-color: brown;
+        overflow: hidden;
+        display: flex;
+      }
 
-		/* Style the links in the navigation bar */
-		.navbar a {
-			float: left;
-			color: white;
-			font-size: 20px;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
+      /* Style the links in the navigation bar */
+      .navbar a {
+        float: left;
+        color: rgb(204, 231, 137);
+        font-size: 20px;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: center;
+      }
 
-		/* Change the background color of the active link */
-		.navbar a.active {
-			background-color: #04AA6D;
-		}
+      /* Change the background color of the active link */
+      .navbar a.active {
+        background-color: #75863d;
+      }
+
+          .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: darkcyan;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: blueviolet;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: coral;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: white;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
 
       h1 {
         color: #337ab7;
@@ -53,12 +102,22 @@
 
     <!-- Create the navigation bar -->
     <div class="navbar">
+      <a href="#">Medicines And Vaccines</a>
       <a href="/">Home</a>
       <a href="/medicines">Medicines</a>
       <a href="/vaccines">Vaccines</a>
-      <a href="/medicinedatavis">Data Visualization</a>
+      <a href="/medicinedatavis">Visualization</a>
+      
+      <div class="dropdown">
+        <button class="dropbtn">List 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/listmedicine">Medicine List</a>
+          <a href="/listvaccine">Vaccine List</a>
+        </div>
+      </div> 
     </div>
-
     
     <h1>List of Medicine Data</h1>
     
@@ -82,7 +141,7 @@
       <tbody>
         {% for row in data %}
         <tr>
-          <td>{{ row.Medicine_name }}</td>
+          <td>{{ row.medicine_name }}</td>
           <td>{{ row.Typeofmedicine }}</td>
           <td>{{ row.medicinemanufacturedate }}</td>
           <td>{{ row.medicineexpirydate }}</td>
@@ -90,7 +149,7 @@
           <td>{{ row.StockInDate }}</td>
           <td>{{ row.StockInQuantity }}</td>
           <td>{{ row.StockInQuantityPrice }}</td>
-          <td>{{ row.StockOutDate }}</td>
+          <td>{{ row.stockOutDate }}</td>
           <td>{{ row.StockOutQuantity }}</td>
           <td>{{ row.BalanceStockQuantity }}</td>
           <td>{{ row.BalanceStockPrice }}</td>
