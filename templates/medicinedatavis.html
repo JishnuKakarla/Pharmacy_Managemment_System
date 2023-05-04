@@ -75,76 +75,100 @@
           .dropdown:hover .dropdown-content {
             display: block;
           }
+
+
+        .card{
+            width: 25%;
+            display: inline-block;
+            box-shadow: 2px 2px 20px black;
+            border-radius: 5px; 
+            margin: 2%;
+            }
+
+        .image img{
+          width: 85%;
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+
+        .title{
+          text-align: center;
+          padding: 10px;
+          
+        }
+
+        h1{
+          font-size: 20px;
+        }
+
+        .des{
+          padding: 3px;
+          text-align: center;
+          padding-top: 10px;
+          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
       </style>
   </head>
     
 <body>
 
 	<!-- Create the navigation bar -->
-	<div class="navbar">
-		<a href="#">Medicines And Vaccines</a>
-		<a href="/">Home</a>
-		<a href="/medicines">Medicines</a>
-		<a href="/vaccines">Vaccines</a>
-		<a href="/medicinedatavis">Visualization</a>
-		
-		<div class="dropdown">
-			<button class="dropbtn">List 
-				<i class="fa fa-caret-down"></i>
-			</button>
-			<div class="dropdown-content">
-				<a href="/listmedicine">Medicine List</a>
-				<a href="/listvaccine">Vaccine List</a>
-			</div>
-		</div> 
-	</div>
-
-    
-        <!-- <div class="wrapper">
-            <div class="card">
-                <img src="/static/medicine_Stock.jpg" alt="Medicines Stock"/>
-                <img src="/static/vaccine_Stock.jpg" alt="Vaccines Stock"/>
-            </div>
-        </div> -->
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/static/medicine_Stock.jpg" alt="Medicines Stock">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+    <div class="navbar">
+      <a href="#">Medicines And Vaccines</a>
+      <a href="/">Home</a>
+      <a href="/medicines">Medicines</a>
+      <a href="/vaccines">Vaccines</a>
+      <a href="/medicinedatavis">Visualization</a>
+      
+      <div class="dropdown">
+        <button class="dropbtn">List 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/listmedicine">Medicine List</a>
+          <a href="/listvaccine">Vaccine List</a>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/static/vaccine_Stock.jpg" alt="Vaccines Stock">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
+      </div> 
+    </div>
 
-        <div class="card-group">
-            <div class="card"  style="width: 18rem;">
-              <img class="card-img-top" src="/static/medicine_Stock.jpg" alt="Medicines Stock">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card"  style="width: 18rem;">
-              <img class="card-img-top" src="/static/vaccine_Stock.jpg" alt="Vaccines Stock">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card"  style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
+    <div class="main">
+     <div class="card">
+      <div class="image">
+        <img src="/static/medicine_Stock.jpg" alt="medicine_Stock>
+      </div>
+      <div class="title">
+        <h1>Medicine Stock</h1>
+      </div>
+      <div class="des">
+        <p>Pie chart showing Availability of Medicines in a PHC</p>
+      </div>
+     </div>
+
+     <div class="card">
+      <div class="image">
+        <img src="/static/vaccine_Stock.jpg" alt="vaccine_stock">
+      </div>
+      <div class="title">
+        <h1>Vaccines Stock</h1>
+      </div>
+      <div class="des">
+        <p>Pie chart showing Availability of vaccines in a PHC</p>
+      </div>
+     </div>
+
+     <div class="card">
+      <div class="image">
+        <img src="/static/medicine_Stock.jpg" alt="medicine_Stock>
+      </div>
+      <div class="title">
+        <h1>Medicine Stock</h1>
+      </div>
+      <div class="des">
+        <p>Pie chart showing Availability of Medicines in a PHC</p>
+      </div>
+     </div>
+    </div>
+
     </body>
 </html>
