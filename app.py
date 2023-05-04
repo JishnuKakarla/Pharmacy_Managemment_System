@@ -91,7 +91,6 @@ def list_medicinedata():
     
     path = os.path.join(app.root_path, 'sheets/')
     medicinedata = get_medicinedata_from_excel_sheet(path)
-    print(medicinedata)
 
     return render_template('list_medicine.html', data=medicinedata)
 
@@ -99,7 +98,6 @@ def list_medicinedata():
 def list_meds():
     path = os.path.join(app.root_path, 'sheets/')
     medicinedata = get_medicinedata_from_excel_sheet(path)
-    print(medicinedata)
 
     return json.dumps(medicinedata)
 
@@ -108,7 +106,6 @@ def list_meds():
 def list_vaccinedata():
     path = os.path.join(app.root_path, 'sheets/')
     vaccinedata = get_vaccinedata_from_excel_sheet(path)
-    print(vaccinedata)
 
     return render_template('list_vaccine.html', data=vaccinedata)
 
@@ -116,7 +113,6 @@ def list_vaccinedata():
 def list_vacs():
     path = os.path.join(app.root_path, 'sheets/')
     vaccinedata = get_vaccinedata_from_excel_sheet(path)
-    print(vaccinedata)
 
     return json.dumps(vaccinedata)
 
@@ -127,8 +123,14 @@ def visualize():
     stock_data = df["StockInQuantity"]
     fig = plt.figure(figsize=(5,5))
     plt.pie(stock_data, labels=medicinename_data)
-    plt.title("Stock Analysis")
-    fig.savefig('./static/medicine_Stock.jpg')
+    fig.savefig('./static/medicine_Stock.png')
+
+    df2 =  pd.read_csv('./sheets/vaccinedata.csv')
+    vaccinename_data = df2["vaccine_name"]
+    stock_data1 = df2["StockInQuantity"]
+    fig = plt.figure(figsize=(5,5))
+    plt.pie(stock_data1, labels=vaccinename_data)
+    fig.savefig('./static/vaccine_Stock.png')
 
     return render_template('medicinedatavis.html')
     
