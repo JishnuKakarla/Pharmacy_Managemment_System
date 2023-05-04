@@ -1,7 +1,20 @@
-medicine_name,Typeofmedicine,medicinemanufacturedate,medicineexpirydate,purpose,StockInDate,StockInQuantity,StockInQuantityPrice,stockOutDate,StockOutQuantity,BalanceStockQuantity,BalanceStockPrice
-drug3,tablet,2023-04-06,2023-04-26,fever,2023-04-19,53,1232,2023-04-19,122,123,1244
-drug4,tablet,2023-03-29,2023-04-10,fever,2023-03-27,59,2300,2023-05-03,1500,87,800
-drug4,tablet,2023-03-29,2023-04-10,fever,2023-03-27,59,2300,2023-05-03,1500,87,800
-drug10,drug,2023-04-27,2023-05-25,testing,2023-04-29,100,200,2023-05-02,100,100,100
-deifne,deonfe,2023-04-21,2023-04-12,wde,2023-04-20,121,121,2023-04-15,121,21332,121
-njhbgyutyr5y,hygut5rytgjh,2023-05-03,2023-05-09,mjhygt``,2023-05-09,46,665,2023-06-01,573,577,675
+medicine_name,Typeofmedicine,medicinemanufacturedate,medicineexpirydate,purpose,StockInDate,StockInQuantity,StockInQuantityPrice,stockOutDate,StockOutQuantity,BalanceStockQuantity,BalanceStockPrice
+
+Paracetmol,tablet,2023-04-06,2023-04-26,Treat headaches migraine nerve pain sore throat muscle ache and common cold,2023-04-19,53,1232,2023-04-19,122,123,1244
+Diacerein,Capsules,2023-03-29,2023-04-10,To treat Cardiac arrest,2023-03-27,59,2300,2023-05-03,1500,87,800
+Azathioprine,tablet,2023-03-29,2023-04-10,To treat maleria,2023-03-27,59,2300,2023-05-03,1500,87,800
+Penicillin V,drug,2023-04-27,2023-05-25,Treat infections caused by bacteria,2023-04-29,100,200,2023-05-02,100,100,100
+Cefuroxime,Syrup,2023-04-21,2023-04-12,Treat baterial infections in many different parts of the body,2023-04-20,121,121,2023-04-15,121,21332,121
+Sodiumchromoglycate,Eye Drops,2023-05-03,2023-05-09,Treatment for both seasonal and perennial allergic rhinitis,2023-05-09,46,665,2023-06-01,573,577,675
+Fentanyl,Injection,2023-05-03,2023-05-09,To relieve severe pian during and after surgery,2023-05-09,46,665,2023-06-01,573,577,675
+Diclofenac Sodium+Sprratiopeptidase,Tablet,7/31/2020,7/31/2023,To treat pain and inflammation,200,,8/9/2020,915,8000,7/31/2027,650,6500,350,3500,915,43
+Piroxicam,Gel,6/25/2027,6/25/2030,Reduce inflammation and relieve pain,200,154,7/7/2029,920,8000,8/8/2023,950,9500,50,500,920,65
+Mefenamic acid,Syrup,2/4/2018,2/4/2022,To relieve mild to modrate pain including menstrual pain,300,156,8/26/2025,922,7000,8/24/2023,850,85
+Aceclofenac,Gel,6/20/2020,6/20/2027,Pian killer,500,160,7/7/2027,926,5000,7/29/2030,650,6500,350,3500,926,56
+Scrratiopeptidase,Tablet,8/24/2021,8/24/2023,"Anti inflammatory purpose after impaction,mixillofacial trauma and infections",100,161,8/9/2020,927,9000,2/10/2026,600,6000,400,4000,927,77
+Lornoxicam,Tablet,9/12/2022,9/12/2025,Used as a pain killer,400,162,2/4/2018,928,6000,7/7/2029,550,5500,450,4500,928,
+Tramadol,Injection,7/29/2020,7/29/2030,"To relieve modrate to modrately severe pain,including pain after surgery",500,168,2/4/2018,934,5000,7/7/2029,250,2500,750,7500,934,34
+Pntazocine,Injection,2/10/2023,2/10/2026, Used to relieve modrate to sevire pain,350,169,8/11/2020,935,6500,9/12/2025,200,2000,800,8000,935,65
+Moraphine,Injection,7/7/2027,7/7/2029, Used to relieve modrate to sevire pain,250,170,7/7/2029,936,7500,6/20/2027,150,1500,850,1200,936,45
+Fentanyl,Injection,8/24/2021,8/24/2023,To relieve severe pian during and after surgery,200,171,8/8/2020,937,8000,8/8/2023,100,1000,900,7000,937,90
+
