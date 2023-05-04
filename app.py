@@ -23,7 +23,7 @@ def index():
 
 @app.route('/medicines', methods= ["GET"])
 def medicines():
-    print("main / call")
+
     path = os.path.join(app.root_path, 'sheets/')
     create_medicineexcel_sheet(path)
 
@@ -31,7 +31,7 @@ def medicines():
 
 @app.route('/vaccines', methods= ["GET"])
 def vaccines():
-    print("main / call")
+
     path = os.path.join(app.root_path, 'sheets/')
     create_vaccineexcel_sheet(path)
 
@@ -48,18 +48,18 @@ def addmedicine():
         request.form['StockInDate'],
         request.form['StockInQuantity'],
         request.form['StockInQuantityPrice'],
-        request.form['StockOutDate'],
+        request.form['stockOutDate'],
         request.form['StockOutQuantity'],
         request.form['BalanceStockQuantity'],
         request.form['BalanceStockPrice']
         
     )
+    print(str(med))
     path = os.path.join(app.root_path, 'sheets/')
     result = add_medicinedata_to_excel_sheet(path, med)
     if result == "updated":
         path = os.path.join(app.root_path, 'sheets/')
         medicinedata = get_medicinedata_from_excel_sheet(path)
-        print(medicinedata)
         return render_template('list_medicine.html', data=medicinedata)
     else:
         return "Failed to update.."
@@ -83,7 +83,12 @@ def addvaccine():
     path = os.path.join(app.root_path, 'sheets/')
     result = add_vaccinedata_to_excel_sheet(path, vac)
 
-    return result
+    if result == "updated":
+        path = os.path.join(app.root_path, 'sheets/')
+        vaccinedata = get_vaccinedata_from_excel_sheet(path)
+        return render_template('list_vaccine.html', data=vaccinedata)
+    else:
+        return "Failed to update.."
     
 
 @app.route('/listmedicine')
@@ -117,20 +122,91 @@ def list_vacs():
     return json.dumps(vaccinedata)
 
 @app.route('/medicinedatavis')
-def visualize():
-    df =  pd.read_csv('./sheets/medicinedata.csv')
-    medicinename_data = df["medicine_name"]
-    stock_data = df["StockInQuantity"]
-    fig = plt.figure(figsize=(5,5))
-    plt.pie(stock_data, labels=medicinename_data)
-    fig.savefig('./static/medicine_Stock.png')
+def visualize():    
 
-    df2 =  pd.read_csv('./sheets/vaccinedata.csv')
-    vaccinename_data = df2["vaccine_name"]
-    stock_data1 = df2["StockInQuantity"]
+    df =  pd.read_csv('./sheets/medicinedata.csv')
+    medicineName_data = df["medicine_name"]
+    stockInQuantity_data = df["StockInQuantity"]
+    balanceStockQuantity_data = df["BalanceStockQuantity"]
+    medicinePrice_date =  df["StockInQuantityPrice"]
+
+    #------------- Medicines Name vs Quantity pie chart --------------
+    fig1 = plt.figure(figsize=(7,7))
+    plt.pie(stockInQuantity_data, labels=medicineName_data, autopct='%.2f')
+    fig1.savefig('./static/medicine_pie_chart.png')
+
+    
+    #------------- Stock in quantiy vs Available stock by Medicine Name --------------
+    # Creating figure and axis objects
+    fig2, ax = plt.subplots()
+
+    # Setting axis labels and title
+    ax.set_xlabel('Medicines')
+    ax.set_ylabel('Stock')
+    ax.set_title('Stock of Medicines')
+
+    # Creating bar plots
+    ax.bar(medicineName_data, stockInQuantity_data, width=0.4, label='Total Stock')
+    ax.bar(medicineName_data, balanceStockQuantity_data, width=0.4, label='Stock Available')
+
+    # Adding legend
+    ax.legend()
+
+    # Saving the plot to an image file
+    plt.savefig('./static/medicine_bar_graph.png')
+
+    #------------- Medicine price vs Medicine Name --------------
+    # plotting the graph
+    plt.subplots()
+    plt.bar(medicineName_data, medicinePrice_date)
+    plt.xlabel('Medicine Name')
+    plt.ylabel('Medicine Price')
+    plt.title('Medicine Price vs Medicine Name')
+
+    # displaying the graph
+    plt.savefig('./static/medicine_price_bar_graph.png')
+
+    
+    #------Reading vaccine data---------------
+    df =  pd.read_csv('./sheets/vaccinedata.csv')
+    vaccineName_data = df["vaccine_name"]
+    stockInQuantity_data = df["StockInQuantity"]
+    balanceStockQuantity_data = df["BalanceStockQuantity"]
+    StockInQuantityPrice_date = df["StockInQuantityPrice"]
+    #------------- Vaccine Name vs Quantity pie chart --------------
+    
     fig = plt.figure(figsize=(5,5))
-    plt.pie(stock_data1, labels=vaccinename_data)
-    fig.savefig('./static/vaccine_Stock.png')
+    plt.pie(stockInQuantity_data, labels=vaccineName_data, autopct='%.2f')
+    fig.savefig('./static/vaccine_pie_chart.png')
+
+    #------------- Stock in quantiy vs Available stock by Vaccine Name --------------
+    fig, ax = plt.subplots()
+
+    # Setting axis labels and title
+    ax.set_xlabel('Vaccines')
+    ax.set_ylabel('Stock')
+    ax.set_title('Stock of Vaccines')
+
+    # Creating bar plots
+    ax.bar(vaccineName_data, stockInQuantity_data, width=0.4, label='Total Stock')
+    ax.bar(vaccineName_data, balanceStockQuantity_data, width=0.4, label='Stock Available')
+
+    # Adding legend
+    ax.legend()
+
+    # Saving the plot to an image file
+    plt.savefig('./static/vaccines_bar_graph.png')
+
+    #------------- Medicine price vs Medicine Name --------------
+    # plotting the graph
+    plt.subplots()
+    plt.bar(vaccineName_data, StockInQuantityPrice_date)
+    plt.xlabel('Vaccine Name')
+    plt.ylabel('Vaccine Price')
+    plt.title('Vaccine Price vs Vaccine Name')
+
+    # displaying the graph
+    plt.savefig('./static/vaccine_price_bar_graph.png')
 
     return render_template('medicinedatavis.html')
     

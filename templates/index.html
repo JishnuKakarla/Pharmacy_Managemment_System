@@ -1,145 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Smart Health Village</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
 	<style>
 		body {
-			background-image: url("/static/InShot_20230504_171129210.png"); 
+			background-image: url("./static/bgimage.png");
 			background-size: cover;
-			background-color: deeppink;
 			background-repeat: no-repeat;
 			background-position: center center;
 			margin: 0;
 			padding: 20px;
 			font-family: sans-serif;
 		}
-
-		.navbar {
-			background-color: brown;
-			overflow: hidden;
-			display: flex;
-			justify-content: center;
-		}
-
-		.navbar a {
-			float: left;
-			color: rgb(204, 231, 137);
-			font-size: 20px;
-			padding: 14px 16px;
-			text-decoration: none;
-			text-align: center;
-		}
-
-		.navbar a.active {
-			background-color: #75863d;
-		}
-
-		body {
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
-		.dropdown {
-			float: left;
-			overflow: hidden;
-		}
-
-		.dropdown .dropbtn {
-			font-size: 16px;  
-			border: none;
-			outline: none;
-			color: blueviolet;
-			padding: 14px 16px;
-			background-color: inherit;
-			font-family: inherit;
-			margin: 0;
-		}
-
-		.navbar a:hover, .dropdown:hover .dropbtn {
-			background-color: darkcyan;
-		}
-
-		.dropdown-content {
-			display: none;
-			position: absolute;
-			background-color: black;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			z-index: 1;
-		}
-
-		.dropdown-content a {
-			float: none;
-			color: coral;
-			padding: 12px 16px;
-			text-decoration: none;
-			display: block;
-			text-align: left;
-		}
-
-		.dropdown-content a:hover {
-			background-color: white;
-		}
-
-		.dropdown:hover .dropdown-content {
-			display: block;
-		}
-
-		.container-fluid {
-			padding: 50px;
-		}
-		  
-		.col-md-8 {
-			margin: 0 auto;
-		}
-		
-		h1,h6.display-3 {
-			font-size: 30px;
-			color:rgb(222, 31, 24);
-			margin-bottom: 20px;
-			text-align : center;
-		}
-		.btn-primary {
-			background-color: #007bff;
-			border-color: #007bff;
-		}
-		
-		.btn-primary:hover {
-			background-color: #0062cc;
-			border-color: #005cbf;
-		}
-		  
 	</style>
 </head>
+
 <body>
 
-	<div class="navbar">
-		<a href="#">Medicines And Vaccines</a>
-		<a href="/">Home</a>
-		<a href="/medicines">Medicines</a>
-		<a href="/vaccines">Vaccines</a>
-		<a href="/medicinedatavis">Visualization</a>
-		
-		<div class="dropdown">
-			<button class="dropbtn">List 
-				<i class="fa fa-caret-down"></i>
-			</button>
-			<div class="dropdown-content">
-				<a href="/listmedicine">Medicine List</a>
-				<a href="/listvaccine">Vaccine List</a>
-			</div>
-		</div> 
-	</div>
-		
-	<div class="container-fluid">
-		<div class="row">
-		  <div class="col-md-4 offset-md-2 text-center">
-			<div>
-				<h1 class="display-3">MEDICINES AND VACCINES</h1>
-				<h6 class="display-3">Stock Availability of Medicines And Vaccines</h6>
-			</div>
-		  </div>
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+		<!-- Navbar content -->
+		<a class="navbar-brand" href="/">Medicines And Vaccines</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="/medicines">Medicines</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/vaccines">Vaccines</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/medicinedatavis">Visualization</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						List
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="/listmedicine">Medicine List</a>
+						<a class="dropdown-item" href="/listvaccine">Vaccine List</a>
+					</div>
+				</li>
+			</ul>
 		</div>
-	  </div>
+	</nav>
+	<br>
+	<br>
+	<br>
+
+	<div class="jumbotron container">
+		<h1 class="display-4">MEDICINES AND VACCINES</h1>
+		<p class="lead">Stock Availability of Medicines And Vaccines.</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	</div>
 
 </body>
+
 </html>

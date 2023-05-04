@@ -1,12 +1,14 @@
 medicine_name,Typeofmedicine,medicinemanufacturedate,medicineexpirydate,purpose,StockInDate,StockInQuantity,StockInQuantityPrice,stockOutDate,StockOutQuantity,BalanceStockQuantity,BalanceStockPrice
 
-Paracetmol,tablet,2023-04-06,2023-04-26,Treat headaches migraine nerve pain sore throat muscle ache and common cold,2023-04-19,53,1232,2023-04-19,122,123,1244
-Diacerein,Capsules,2023-03-29,2023-04-10,To treat Cardiac arrest,2023-03-27,59,2300,2023-05-03,1500,87,800
-Azathioprine,tablet,2023-03-29,2023-04-10,To treat maleria,2023-03-27,59,2300,2023-05-03,1500,87,800
-Penicillin V,drug,2023-04-27,2023-05-25,Treat infections caused by bacteria,2023-04-29,100,200,2023-05-02,100,100,100
-Cefuroxime,Syrup,2023-04-21,2023-04-12,Treat baterial infections in many different parts of the body,2023-04-20,121,121,2023-04-15,121,21332,121
-Sodiumchromoglycate,Eye Drops,2023-05-03,2023-05-09,Treatment for both seasonal and perennial allergic rhinitis,2023-05-09,46,665,2023-06-01,573,577,675
-Fentanyl,Injection,2023-05-03,2023-05-09,To relieve severe pian during and after surgery,2023-05-09,46,665,2023-06-01,573,577,675
-Diclofenac,Tablet,7/31/2020,7/31/2023,To treat pain and inflammation,8/9/2020,915,8000,7/31/2027,650,6500,350
-Piroxicam,Gel,6/25/2027,6/25/2030,Reduce inflammation and relieve pain,7/7/2029,920,230,8/8/2023,950,9500,50
-Mefenamic acid,Syrup,2/4/2018,2/4/2022,To relieve mild to modrate pain including menstrual pain,8/26/2025,922,7000,8/24/2023,850,85,280
+Paracetmol,tablet,2023-04-06,2023-04-26,Treat headaches migraine nerve pain sore throat muscle ache and common cold,2023-04-19,530,122,2023-04-19,122,123,124
+Diacerein,Capsules,2023-03-29,2023-04-10,To treat Cardiac arrest,2023-03-27,590,2300,2023-05-03,150,87,800
+Azathioprine,tablet,2023-03-29,2023-04-10,To treat maleria,2023-03-27,590,2300,2023-05-03,150,87,800
+Penicillin V,drug,2023-04-27,2023-05-25,Treat infections caused by bacteria,2023-04-29,1000,200,2023-05-02,100,100,100
+Cefuroxime,Syrup,2023-04-21,2023-04-12,Treat baterial infections in many different parts of the body,2023-04-20,1210,121,2023-04-15,121,232,121
+Sodiumchromoglycate,Eye Drops,2023-05-03,2023-05-09,Treatment for both seasonal and perennial allergic rhinitis,2023-05-09,460,665,2023-06-01,573,577,675
+Fentanyl,Injection,2023-05-03,2023-05-09,To relieve severe pian during and after surgery,2023-05-09,46,665,2023-06-01,5730,577,675
+Diclofenac,Tablet,7/31/2020,7/31/2023,To treat pain and inflammation,8/9/2020,915,800,7/31/2027,650,650,350
+Piroxicam,Gel,6/25/2027,6/25/2030,Reduce inflammation and relieve pain,7/7/2029,920,230,8/8/2023,950,950,50
+Mefenamic acid,Syrup,2/4/2018,2/4/2022,To relieve mild to modrate pain including menstrual pain,8/26/2025,922,700,8/24/2023,850,85,280
+drug10,drug,2023-05-27,2023-06-01,Fever,2023-05-24,100,230,2023-05-19,20,102,349
+drug10,drug,2023-05-27,2023-06-01,Fever,2023-05-24,100,230,2023-05-19,20,102,349
