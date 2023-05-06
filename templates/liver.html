@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liver Disease Prediction Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -16,12 +17,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <title>Vaccine Form</title>
-
 </head>
 
+
 <body>
-    <!-- Create the navigation bar -->
+
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
         <!-- Navbar content -->
         <a class="navbar-brand" href="/">Medicines And Vaccines</a>
@@ -51,14 +51,14 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Predictions
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="/liver">Liver Cancer</a>
-					</div>
-				</li>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Predictions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/liver">Liver Cancer</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
@@ -67,75 +67,70 @@
     <br>
     <br>
 
-
     <div class="jumbotron container">
-        <h1 class="display-4">Vaccines Form</h1>
+        <h1 class="display-4">Liver Diease Predictor..</h1>
 
-        <form action="/addvaccine" method="POST">
+        <form action="/predict" method="POST">
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="vaccine_name">Vaccine Name</label>
-                    <input name="Vaccine_name" type="text" class="form-control" id="vaccine_name" required>
+                    <label for="Age">Age</label>
+                    <input name="Age" type="text" class="form-control" id="Age" required>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="diseasename">Disease Name</label>
-                    <input name="diseasename" type="text" class="form-control" id="diseasename" required>
+                    <label for="Total_Bilirubin">Total Bilirubin</label>
+                    <input class="form-control" type="text" name="Total_Bilirubin" id="Total_Bilirubin" required>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="vaccinemanufacturedate">Vaccine Manufacture Date</label>
-                    <input name="vaccinemanufacturedate" type="date" class="form-control" id="vaccinemanufacturedate">
+                    <label for="Direct_Bilirubin">Direct Bilirubin</label>
+                    <input name="Direct_Bilirubin" type="text" class="form-control" id="Direct_Bilirubin" required>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="vaccineexpirydate">Vaccine Expiry Date</label>
-                    <input name="vaccineexpirydate" type="date" class="form-control" id="vaccineexpirydate">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="purpose">Purpose</label>
-                    <input name="purpose" type="text" class="form-control" id="purpose">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="StockInDate">Stock In Date</label>
-                    <input name="StockInDate" type="date" class="form-control" id="StockInDate">
+                    <label for="Alkaline_Phosphotase">Alkaline Phosphotase</label>
+                    <input name="Alkaline_Phosphotase" type="text" class="form-control" id="Alkaline_Phosphotase"
+                        required>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="StockInQuantity">Stock In Quantity</label>
-                    <input name="StockInQuantity" type="text" class="form-control" id="StockInQuantity">
+                    <label for="Alamine_Aminotransferase">Alamine Aminotransferase</label>
+                    <input name="Alamine_Aminotransferase" type="text" class="form-control"
+                        id="Alamine_Aminotransferase" required>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="StockInQuantityPrice">Stock In Quantity Price</label>
-                    <input name="StockInQuantityPrice" type="text" class="form-control" id="StockInQuantityPrice">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="StockOutDate">Stock Out Date</label>
-                    <input name="StockOutDate" type="date" class="form-control" id="StockOutDate">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="StockOutQuantity">Stock Out Quantity</label>
-                    <input name="StockOutQuantity" type="text" class="form-control" id="StockOutQuantity">
+                    <label for="Aspartate_Aminotransferase">Aspartate Aminotransferase</label>
+                    <input name="Aspartate_Aminotransferase" type="text" class="form-control"
+                        id="Aspartate_Aminotransferase" required>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="BalanceStockQuantity">Balance Stock Quantity</label>
-                    <input name="BalanceStockQuantity" type="text" class="form-control" id="BalanceStockQuantity">
+                    <label for="Total_Protiens">Total Protiens</label>
+                    <input name="Total_Protiens" type="text" class="form-control" id="Total_Protiens" required>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="BalanceStockPrice">Balance Stock Price</label>
-                    <input name="BalanceStockPrice" type="text" class="form-control" id="BalanceStockPrice">
+                    <label for="Albumin">Albumin</label>
+                    <input name="Albumin" type="text" class="form-control" id="Albumin" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Albumin_and_Globulin_Ratio">Albumin to Globulin_Ratio</label>
+                    <input name="Albumin_and_Globulin_Ratio" type="text" class="form-control"
+                        id="Albumin_and_Globulin_Ratio" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Gender_Male">Gender</label>
+                    <input name="Gender_Male" type="text" class="form-control" id="Gender_Male"
+                        placeholder="Gender(Male: 1, Female: 0)" required>
                 </div>
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+
 </body>
 
 </html>

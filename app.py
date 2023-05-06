@@ -6,6 +6,10 @@ import os
 import io
 import json
 
+import pickle
+import numpy as np
+from tensorflow.keras.models import load_model
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -16,6 +20,12 @@ host = os.environ.get('FLASK_HOST', '0.0.0.0')
 port = os.environ.get('FLASK_PORT', '5000')
 debug = os.environ.get('FLASK_DEBUG', False)
 
+def predict(values, dic):
+    if len(values) == 10:
+        model = pickle.load(open('models/liver.pkl','rb'))
+        values = np.asarray(values)
+        return model.predict(values.reshape(1, -1))[0]
+    return 0;
 
 @app.route('/', methods= ["GET"])
 def index():
@@ -210,7 +220,25 @@ def visualize():
 
     return render_template('medicinedatavis.html')
     
+@app.route("/liver", methods=['GET', 'POST'])
+def liverPage():
+    return render_template('liver.html')
 
+@app.route("/predict", methods = ['POST', 'GET'])
+def predictPage():
+    try:
+        if request.method == 'POST':
+            to_predict_dict = request.form.to_dict()
+            to_predict_list = list(map(float, list(to_predict_dict.values())))
+            print(to_predict_dict)
+            print("------")
+            print(to_predict_list)
+            pred = predict(to_predict_list, to_predict_dict)
+            print("pred: ", pred)
+    except:
+        return render_template("index.html")
+
+    return render_template('predict.html', pred = pred)
 
 if __name__ == '__main__':
     app.run()
